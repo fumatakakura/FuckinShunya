@@ -1,0 +1,41 @@
+* {
+    color: lightseagreen;
+}
+.container {
+    background-color: black;
+    margin: 0 auto 0 auto;
+    /* margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+h1 {
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    font-size: 20px;
+}
+
+.header-right li {
+    margin-right: 28px;
+}
+
+.background {
+    height: 600px;
+    background-image: url("../../img/IMG_5027.jpeg");
+    opacity: 0.8;
+}
+
+.background h2 {
+    padding-left: 400px;
+    padding-top: 300px;
+}
+
